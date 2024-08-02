@@ -2,10 +2,10 @@ package ru.dc.review.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Repository;
 import ru.dc.review.entity.Product;
 
-@RestController
+@Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
 
